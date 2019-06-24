@@ -7,11 +7,11 @@
 // Read Environment Parameters from Oracle Application Container Cloud Service (ACCS)
 // If no env variables are there, use default values.
 var port = Number(process.env.PORT || 9905);
-var iotHost = process.env.IOTHOST || "<MyIoTServer>";
-var iotPort = process.env.IOTPORT || "<MyIoTPort>";
-var IoTuser = process.env.IOTUSER || "<MyIoTUsername>";
-var IoTpass = process.env.IOTPASS || "<MyIoTPassword>";
-var IoTdevicePassword = process.env.IOTDEVPASS || "<MyDefaultDevicePassword>";
+var iotHost = process.env.IOTHOST || "oc-129-150-113-134.compute.oraclecloud.com";
+var iotPort = process.env.IOTPORT || "32770";
+var IoTuser = process.env.IOTUSER || "IotUser";
+var IoTpass = process.env.IOTPASS || "jdR94936";
+var IoTdevicePassword = process.env.IOTDEVPASS || "jdR94936";
 
 //
 // Setup express
