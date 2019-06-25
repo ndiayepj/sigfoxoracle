@@ -12,7 +12,7 @@
     "request":"~2.55.0"
   },
   "scripts": {
-    "prepublish": " package.json manifest.json *.js node_modules"
+    "prepublish": " zip -r target/node-xkitbridge-0.0.1-dist.zip package.json manifest.json *.js node_modules"
   },
   "author": "john.graves@oracle.com",
   "engines": {
